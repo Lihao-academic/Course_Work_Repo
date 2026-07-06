@@ -44,3 +44,4 @@ Before running the code, please configure the data directories at the root level
 
 2. Open `hmdb_classifier/HMDB51_Main_Experiment.ipynb` in Jupyter Notebook or Google Colab.
 3. The notebook is fully configured for dynamic path resolution. Assuming the dataset folders are placed correctly, simply execute "Run All" to reproduce the data pipeline, instantiate the model, load the `best_model.keras` weights, and generate the final Confusion Matrix on the hold-out test set.
+4. Due to filesize limitation, the .keras file is shared via google drive: https://drive.google.com/file/d/1Qls1vGWrUSUJfg6pULTvnOg1lh-rabUX/view?usp=drive_link
