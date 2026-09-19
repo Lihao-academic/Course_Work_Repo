@@ -7,11 +7,12 @@
 Action Recognition on HMDB51
 
 ===============================
-
+```
 Author: Lihao [mat. 947013] l.hao1@campus.unimib.it
 Author: Shen Hao Stefano Lin [ MAT. 881525 ] s.lin2@campus.unimib.it
 Project: Action Recognition on HMDB51
 Dataset: HMDB51
+```
 
 ## 📌 Project Overview
 This repository contains a robust video action recognition pipeline. It leverages a Two-Stage Fine-Tuning strategy, combining spatial feature extraction (MobileNetV2) with temporal sequence modeling (Bidirectional GRU), enhanced by Frame Differencing to suppress static background noise.
@@ -76,12 +77,12 @@ Before running the code, please configure the data directories at the root level
 基于HMDB51的动作识别
 
 ===============================
-
+```
 作者：Lihao [学号 947013] l.hao1@campus.unimib.it
 作者：Shen Hao Stefano Lin [学号 881525] s.lin2@campus.unimib.it
-项目：HMDB51 动作识别
+项目：基于HMDB51的动作识别
 数据集：HMDB51
-
+```
 ## 📌 项目概述
 本仓库包含一个稳健的视频动作识别流程。该流程采用“两阶段微调”（Two-Stage Fine-Tuning）策略，结合了空间特征提取（MobileNetV2）与时间序列建模（双向 GRU），并利用帧差法（Frame Differencing）抑制静态背景噪声。
 
