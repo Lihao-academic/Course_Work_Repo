@@ -1,8 +1,11 @@
 # 中文
+
 [中文](#中文) | [English](#english)
 
 ===============================
+
 Action Recognition on HMDB51
+
 ===============================
 
 Author: Lihao [mat. 947013] l.hao1@campus.unimib.it
@@ -51,9 +54,13 @@ Before running the code, please configure the data directories at the root level
 
 
 # english
+
 [中文](#中文) | [English](#english)
+
 ===============================
+
 基于HMDB51的动作识别
+
 ===============================
 
 作者：Lihao [学号 947013] l.hao1@campus.unimib.it
