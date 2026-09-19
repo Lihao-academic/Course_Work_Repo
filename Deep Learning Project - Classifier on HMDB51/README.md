@@ -1,6 +1,6 @@
-# English Introduction
+# English_Introduction
 
-[中文](#中文介绍) | [English](#English Introduction)
+[中文](#中文介绍) | [English](#English_Introduction)
 
 ===============================
 
@@ -70,7 +70,7 @@ Before running the code, please configure the data directories at the root level
 
 # 中文
 
-[中文](#中文介绍) | [English](#English Introduction)
+[中文](#中文介绍) | [English](#English_Introduction)
 
 ===============================
 
