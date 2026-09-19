@@ -61,7 +61,7 @@ Before running the code, please configure the data directories at the root level
 
 ## 🚀 How to Run
 1. Install the required environment:
-   $ pip install -r requirements.txt
+   ```$ pip install -r requirements.txt```
 
 2. Open `hmdb_classifier/HMDB51_Main_Experiment.ipynb` in Jupyter Notebook or Google Colab.
 3. The notebook is fully configured for dynamic path resolution. Assuming the dataset folders are placed correctly, simply execute "Run All" to reproduce the data pipeline, instantiate the model, load the `best_model.keras` weights, and generate the final Confusion Matrix on the hold-out test set.
@@ -128,7 +128,7 @@ Before running the code, please configure the data directories at the root level
 
 ## 🚀 如何运行
 1. 安装所需环境：
-$ pip install -r requirements.txt
+```$ pip install -r requirements.txt```
 
 2. 在 Jupyter Notebook 或 Google Colab 中打开 `hmdb_classifier/HMDB51_Main_Experiment.ipynb`。
 3. 该 Notebook 已配置好动态路径解析功能。只要数据集文件夹放置正确，只需执行“全部运行”（Run All）即可复现数据流水线、实例化模型、加载 `best_model.keras` 权重，并在留出的测试集上生成最终的混淆矩阵。
