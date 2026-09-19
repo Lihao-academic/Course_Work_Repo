@@ -68,7 +68,7 @@ Before running the code, please configure the data directories at the root level
 4. Due to filesize limitation, the .keras file is shared via google drive: https://drive.google.com/file/d/1Qls1vGWrUSUJfg6pULTvnOg1lh-rabUX/view?usp=drive_link
 
 
-# 中文
+# 中文介绍
 
 [中文](#中文介绍) | [English](#English_Introduction)
 
