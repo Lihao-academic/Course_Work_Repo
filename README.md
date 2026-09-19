@@ -1,5 +1,4 @@
 # Course_Work_Repo
-[简体中文](./README.zh-CN.md) | English
 
 <p align="right">
   <a href="./README.md">English</a> |
