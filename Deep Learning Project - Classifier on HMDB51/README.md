@@ -1,6 +1,6 @@
-# english
+# English Introduction
 
-[中文](#中文) | [English](#english)
+[中文](#中文介绍) | [English](#English Introduction)
 
 ===============================
 
@@ -20,20 +20,34 @@ This repository contains a robust video action recognition pipeline. It leverage
 
 The project strictly follows a code-data separation paradigm:
 
-
-├── hmdb_classifier/           # 🧠 Core Source Code & Entry Point
-│   ├── HMDB51_Main_Experiment.ipynb  # Main Execution Notebook (Run this!)
-│   ├── data.py                # tf.data pipeline (TSN sampling & augmentations)
-│   ├── models.py              # Neural network architectures
-│   ├── video_io.py            # Video decoding & Frame differencing physics
-│   ├── prepare_dataset.py     # Manifest generation and data splitting
-│   └── metrics.py             # Evaluation and learning curve plotting
+```text
+├── hmdb_classifier/
+│   ├── HMDB51_Main_Experiment.ipynb
+│   ├── data.py
+│   ├── models.py
+│   ├── video_io.py
+│   ├── prepare_dataset.py
+│   └── metrics.py
 │
-├── best_model.keras           # 🏆 The final optimized weights (66%+ Accuracy)
-├── current stage1 results/    # Pre-trained Stage-1 backbone weights
-├── outputs/                   # Directory for training logs and checkpoints
-├── requirements.txt           # Python dependencies
-└── README.txt                 # Project documentation (This file)
+├── best_model.keras
+├── current stage1 results/
+├── outputs/
+├── requirements.txt
+└── README.txt
+```
+
+### Key files
+
+- **`HMDB51_Main_Experiment.ipynb`** — Main execution notebook.
+- **`data.py`** — `tf.data` pipeline, including TSN sampling and data augmentation.
+- **`models.py`** — Neural network architectures.
+- **`video_io.py`** — Video decoding and frame-difference processing.
+- **`prepare_dataset.py`** — Manifest generation and dataset splitting.
+- **`metrics.py`** — Evaluation metrics and learning-curve plotting.
+- **`best_model.keras`** — Final optimized model weights.
+- **`outputs/`** — Training logs and checkpoints.
+
+
 
 ## 📊 Dataset Setup (Action Required)
 To ensure portability, the massive dataset files are not included in this archive. 
@@ -55,7 +69,7 @@ Before running the code, please configure the data directories at the root level
 
 # 中文
 
-[中文](#中文) | [English](#english)
+[中文](#中文介绍) | [English](#English Introduction)
 
 ===============================
 
@@ -75,20 +89,33 @@ Before running the code, please configure the data directories at the root level
 
 本项目严格遵循代码与数据分离的原则：
 
-
-├── hmdb_classifier/           # 🧠 核心源代码与入口
-│   ├── HMDB51_Main_Experiment.ipynb  # 主执行 Notebook（请运行此文件！）
-│   ├── data.py                # tf.data 数据流水线（TSN 采样与数据增强）
-│   ├── models.py              # 神经网络架构
-│   ├── video_io.py            # 视频解码与帧差法处理逻辑
-│   ├── prepare_dataset.py     # 清单生成与数据集划分
-│   └── metrics.py             # 评估指标与学习曲线绘制
+```text
+├── hmdb_classifier/
+│   ├── HMDB51_Main_Experiment.ipynb
+│   ├── data.py
+│   ├── models.py
+│   ├── video_io.py
+│   ├── prepare_dataset.py
+│   └── metrics.py
 │
-├── best_model.keras           # 🏆 最终优化后的权重（准确率 >66%）
-├── current stage1 results/    # 第一阶段预训练的主干网络权重
-├── outputs/                   # 训练日志与检查点（checkpoint）存储目录
-├── requirements.txt           # Python 依赖项
-└── README.txt                 # 项目文档（即本文件）
+├── best_model.keras
+├── current stage1 results/
+├── outputs/
+├── requirements.txt
+└── README.txt
+```
+
+### 关键文件
+
+- **`HMDB51_Main_Experiment.ipynb`** — 主执行 Notebook。
+- **`data.py`** — `tf.data` 流水线，包含 TSN 采样和数据增强。
+- **`models.py`** — 神经网络架构。
+- **`video_io.py`** — 视频解码与帧差处理。
+- **`prepare_dataset.py`** — 清单生成与数据集划分。
+- **`metrics.py`** — 评估指标与学习曲线绘制。
+- **`best_model.keras`** — 最终优化后的模型权重。
+- **`outputs/`** — 训练日志与检查点（checkpoints）。
+
 
 ## 📊 数据集设置（需手动操作）
 为确保可移植性，本压缩包未包含庞大的数据集文件。
