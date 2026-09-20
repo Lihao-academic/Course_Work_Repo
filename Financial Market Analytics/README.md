@@ -28,6 +28,7 @@ FMAproject_PairsTrading
 ├── SPX500 Original.xlsm
 └── Stoxx 600 Originale.xlsm
 ```
+请注意数据并未包含在仓库中。
 
 ## 策略方法
 
@@ -102,6 +103,7 @@ FMAproject_PairsTrading
 ├── SPX500 Original.xlsm
 └── Stoxx 600 Originale.xlsm
 ```
+Please note that the data used is not included in the warehouse.
 
 ## Method
 
