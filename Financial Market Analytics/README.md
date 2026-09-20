@@ -21,7 +21,12 @@
 ## 项目结构
 
 ```
-aaa
+FMAproject_PairsTrading
+├── data_cache/
+├── extract_data.py
+├── Pairs_Trading_SP500.ipynb
+├── SPX500 Original.xlsm
+└── Stoxx 600 Originale.xlsm
 ```
 
 ## 策略方法
@@ -90,7 +95,12 @@ This project tests whether a cointegration-based pairs-trading strategy can gene
 ## Project Structure
 
 ```
-aaa
+FMAproject_PairsTrading
+├── data_cache/
+├── extract_data.py
+├── Pairs_Trading_SP500.ipynb
+├── SPX500 Original.xlsm
+└── Stoxx 600 Originale.xlsm
 ```
 
 ## Method
