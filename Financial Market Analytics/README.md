@@ -68,9 +68,9 @@ python extract_data.py
 jupyter lab
 ```
 
-原始课程数据未包含在仓库中。运行前需将源 Excel 文件放到 `extract_data.py` 所配置的位置。`pyarrow` 用于读写 Parquet 缓存文件。
+原始数据已经包含在仓库中。运行前需将源 Excel 文件放到 `extract_data.py` 所配置的位置。`pyarrow` 用于读写 Parquet 缓存文件。
 
-> **说明：**以上为当前基准结果。行业标签提取、交易成本计算和退市处理仍需进一步核验，最终数值可能在完整复跑后更新。
+> **说明：** 以上为当前基准结果。行业标签提取、交易成本计算和退市处理仍需进一步核验，最终数值可能在完整复跑后更新。
 
 [返回顶部](#top) · [Read in English](#en)
 
@@ -142,7 +142,7 @@ python extract_data.py
 jupyter lab
 ```
 
-The original course dataset is not included. Before running the project, place the source Excel workbook in the location configured in `extract_data.py`. The `pyarrow` package is required for the Parquet cache files.
+The original course dataset is included. Before running the project, place the source Excel workbook in the location configured in `extract_data.py`. The `pyarrow` package is required for the Parquet cache files.
 
 > **Note:** These are current baseline results. Sector-label extraction, transaction-cost accounting, and delisting handling still require validation, so the final numbers may change after a complete rerun.
 
