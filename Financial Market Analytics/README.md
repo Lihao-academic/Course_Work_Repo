@@ -10,13 +10,19 @@
 
 ## 项目概览
 
-- **数据范围：**1990–2018 年，1,355 只历史 S&P 500 成分股
-- **形成期：**156 周
-- **交易期：**26 周
-- **配对选择：**Engle–Granger 协整检验
-- **交易信号：**价差 z-score
-- **组合构建：**每期最多 20 组配对，等额配置
-- **交易成本：**每次仓位变化 10 bps
+- **数据范围：** 1990–2018 年，1,355 只历史 S&P 500 成分股
+- **形成期：** 156 周
+- **交易期：** 26 周
+- **配对选择：** Engle–Granger 协整检验
+- **交易信号：** 价差 z-score
+- **组合构建：** 每期最多 20 组配对，等额配置
+- **交易成本：** 每次仓位变化 10 bps
+
+## 项目结构
+
+```
+aaa
+```
 
 ## 策略方法
 
@@ -80,6 +86,12 @@ This project tests whether a cointegration-based pairs-trading strategy can gene
 - **Trading signal:** spread z-score
 - **Portfolio:** up to 20 equally weighted pairs per window
 - **Transaction cost:** 10 bps per position change
+
+## Project Structure
+
+```
+aaa
+```
 
 ## Method
 
