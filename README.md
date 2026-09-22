@@ -19,3 +19,8 @@ code and papers of course works accomplished during master programme in UniMiB
   * This project investigates financial literacy in Italy, executing the full process from conceptualization to operationalization—quantifying abstract concepts into comparable metrics—followed by analysis and discussion.
 * **Financial Market Analytics**
   * This project uses historical S&P 500 data to calculate stock correlations and implement a pairs trading strategy; while the results were not ideal, the strategy successfully achieved risk diversification.
+
+You may find more detailed information in my personal academic page:
+```
+https://lihao-academic.github.io/portfolio/
+```
